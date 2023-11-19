@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A's Fitness</title>
+</head>
+<link rel="stylesheet" link="style.css">
+<style>
+    body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/background.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.left{
+    display: inline-block;
+    position:absolute;
+    left:34px;
+    top:20px;
+    
+}
+.left img{
+    width: 95px;
+    height:40px;
+}
+.left div{
+    text-align:center;
+}
+.right{
+    display: inline-block;
+    position:absolute;
+    right:34px;
+    top:20px;
+    
+}
+.mid{
+    display: block;
+    width:38%;
+    margin:20px auto;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    font-family: Lucida Bright;
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 34px  23px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:rgb(255, 17, 0);
+}
+.btn{
+    margin: 0px 9px;
+    background-color: yellow;
+    color:black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Candara;
+    cursor: pointer;
+}
+.btn:hover{
+    color:red;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 28px;
+    margin: 103px 65px;
+    padding: 35px;
+    width: 20%;
+}
+.form_group input{
+    text-align: center;
+    display:block;
+    width:150px;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 3px auto;
+    font-size: 15px;
+
+}
+.but{
+    text-align: center;
+    display:block;
+    width:30%;
+    margin:10px auto;
+    border-radius: 12px;
+    padding:10px;
+}
+.bt{
+    text-align: center;
+    display:block;
+    width:10%;
+    margin:auto;
+    border-radius: 12px;
+    padding:10px;
+}
+.app{
+    background-color: rgb(0, 47, 255);
+    border: 2px solid white;
+    border-radius: 28px;
+    opacity: 0.6;
+    margin: 30px;
+    padding:5px;
+}
+h1{
+    font-family: Times New Roman;
+    text-align: center;
+    color:yellow;
+    margin:0;
+    padding: 0;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Brush Script MT;
+    margin:0;
+    padding: 0;
+}
+.spl{
+    background-color: blueviolet;
+    border: 2px solid white;
+    border-radius: 28px;
+    opacity: 0.6;
+    padding:5px;
+    width:35%;
+    float:top-left;
+
+}
+.blog{
+    background-color: aqua;
+    opacity: 0.6%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.transpara{
+    background-color:greenyellow;
+    opacity: 0.6;
+    margin: 30px;
+    padding:5px;
+}
+.btnD{
+    margin:20px auto;
+    background-color: yellow;
+    color:black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Candara;
+    width:15%
+}
+</style>
+<body>
+    <header class="head">
+        <!--for log-->
+        <div class="left">
+            <img src="img/logo.jpg">
+            <div>Core Crunch</div>
+        </div>
+        <!--for navbar-->
+        <div class="mid">
+        <ul class="navbar" class="active">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CLASSES</a></li>
+            <li><a href="#">MEMBERSHIP</a></li>
+        </ul>
+        </div>
+        <!--for buttons-->
+        <div class="right">
+            <button class="btn">CALL</button>
+            <button class="btn">EMAIL</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN US NOW!</h1>
+        <form action="noaction.php">
+            <div class="form_group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Enter your age">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Enter your gender">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Enter your mobile no.">
+            </div>
+            <div class="form_group">
+                <input type="text" placeholder="Enter your mail-id:">
+            </div>
+            <div class="form_group">
+                <button class="but">
+                    SUMBIT
+                </button>
+            </div>
+        </form>
+    </div>
+    <br><br>
+    <div class="app">
+        <h1>
+            Download the Core Crunch App Today
+        </h1>
+        <p>Get access to workout videos by international fitness trainers</p>
+        <button class="bt">
+            Download Now
+        </button>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <marquee direction="right">
+    <div class="spl">
+        <h1>
+            SPECIAL OFFER
+        </h1>
+        <p>10% discount on pro membership</p>
+        <p>15% discount on elite membership</p>
+    </div>
+</marquee>
+    <br><br><br><br><br><br><br>
+    <div class="twoD" style="overflow:auto; border:2px solid white;border-radius: 14px;margin:0px 19px">
+        <div class="heading" style="background-color: white;opacity:0.4; width:19%;margin:3px auto;border:2px solid black;border-radius: 14px;">
+        <h1 style="color:black">Our Latest Blogs</h1>
+        </div>
+        <div class="L" style="float: left;width:48%">
+        <div class="btnD">
+            17th Oct 23
+        </div>
+        <p style="color:white;font-size: 25px;text-align: center;">~ Manish Patole</p><br>
+        <div class="heading" style="background-color: white;opacity:0.4;width:95%;margin:13px">
+        <p style="font-family:Times New Roman;color:red;font-size:25px;">CORE CRUNCH: 21 YEARS OF FITNESS EXCELLENCE & ANNIVERSARY CELEBRATION</p>
+        </div>
+        <br>
+        <div class="transpara">
+        <p style="font-family:Verdana;font-size:13px;color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui unde consequuntur cupiditate, blanditiis quis suscipit deserunt impedit dignissimos sunt harum fugiat inventore earum consequatur repellendus debitis fuga. Aperiam, dignissimos.
+        Harum, fugiat. Voluptatum aliquam enim aperiam nisi! Rem debitis itaque at quasi eveniet iure enim soluta assumenda facilis, cumque ea vero rerum, voluptatem mollitia commodi voluptates accusantium, cum corporis! A.
+        Natus molestiae sapiente minus odit sint expedita quae quo deserunt, in omnis repellat reprehenderit fugit! Velit commodi provident quaerat fugit natus, cumque iste vel rerum inventore maiores, laborum totam excepturi.
+        Illo in cupiditate quae dolorum eaque provident quibusdam quos ipsam temporibus, vel, perferendis fugiat error magni, nesciunt cumque iusto magnam quo? Fugiat harum sit eaque reiciendis eum qui voluptas nobis.</p>
+        </div>
+    </div>
+    <div class="L" style="float: right;width:48%">
+        <div class="btnD">
+            4th Nov 23
+        </div>
+        <p style="color:white;font-size: 25px;text-align: center;">~ Gunjan Sharma</p><br>
+        <div class="heading" style="background-color: white;opacity:0.4;width:95%;margin:13px">
+        <p style="font-family:Times New Roman;color:red;font-size:25px;">BENEFITS OF GOING TO GYM & DOING PHYSICAL ACTIVITY</p>
+        </div>
+        <BR>
+        <div class="transpara">
+        <p style="font-family:Verdana;font-size:13px;color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui unde consequuntur cupiditate, blanditiis quis suscipit deserunt impedit dignissimos sunt harum fugiat inventore earum consequatur repellendus debitis fuga. Aperiam, dignissimos.
+        Harum, fugiat. Voluptatum aliquam enim aperiam nisi! Rem debitis itaque at quasi eveniet iure enim soluta assumenda facilis, cumque ea vero rerum, voluptatem mollitia commodi voluptates accusantium, cum corporis! A.
+        Natus molestiae sapiente minus odit sint expedita quae quo deserunt, in omnis repellat reprehenderit fugit! Velit commodi provident quaerat fugit natus, cumque iste vel rerum inventore maiores, laborum totam excepturi.
+        Illo in cupiditate quae dolorum eaque provident quibusdam quos ipsam temporibus, vel, perferendis fugiat error magni, nesciunt cumque iusto magnam quo? Fugiat harum sit eaque reiciendis eum qui voluptas nobis.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
