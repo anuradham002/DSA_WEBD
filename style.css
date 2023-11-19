@@ -5,6 +5,7 @@ body{
     background-image: url("/1ST_WEBSITE/img/background.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -31,7 +32,7 @@ body{
 }
 .mid{
     display: block;
-    width:38%;
+    width:48%;
     margin:20px auto;
     
 }
@@ -47,6 +48,9 @@ body{
     color:white;
     text-decoration: none;
     padding: 34px  23px;
+    font-size: larger;
+    font-weight: bolder;
+    animation: glow 2s ease-in-out infinite alternate;
 }
 .navbar li a:hover,.navbar li a.active{
     text-decoration: underline;
@@ -72,6 +76,10 @@ body{
     margin: 103px 65px;
     padding: 35px;
     width: 20%;
+}
+.container h1{
+    color:yellow;
+    animation: glowy 2s ease-in-out infinite alternate;;
 }
 .form_group input{
     text-align: center;
@@ -154,4 +162,37 @@ p{
     font-size: 20px;
     font-family: Candara;
     width:15%
+}
+.testimony{
+    overflow:auto;
+    margin:100px 400px;
+    width:40%; 
+    background-color:white; 
+    color:black;
+    border: 2px solid white;
+    border-radius: 28px;
+}
+.testimony h1{
+    color:#4db1bc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 20px #2d9dab;
+    }
+    to{
+        text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+
+}
+@keyframes glowy{
+    from{
+        text-shadow: 0 0 20px #ffff00
+    }
+    to{
+        text-shadow: 0 0 30px #fff388, 0 0 10px #ffffc2;
+    }
+
 }
